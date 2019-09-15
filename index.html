@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sigurd Eugen Espersen</title>
+    <link rel="icon" href="img/webIcon.png">
+    <script src="https://kit.fontawesome.com/6fe7d57090.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+    
+<body>
+    
+    <header>
+        <div class="container">
+            <nav onclick="navBurger(this)">
+            <ul class="links">            
+                <li class="nav-link"><a href="https://www.linkedin.com/in/sigurd-espersen-a24849191/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li class="nav-link"><a href="https://github.com/SigurdEEspersen" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li class="nav-link"><a href="https://www.instagram.com/sigurdespersen/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li class="nav-link"><a href="https://www.facebook.com/sigurd.espersen" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            </ul>
+            <ul class="items">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#cv">CV</a></li>
+                <li class="nav-item"><a href="#git">Git</a></li>
+                <li class="nav-item"><a href="#gallery">Gallery</a></li>
+                <li class="nav-item-last"><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            </nav>
+        </div>
+    </header>
+    
+    <script type="text/javascript">
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $('nav').addClass('scroll');
+            }
+            else {
+                $('nav').removeClass('scroll');
+            }
+        })
+    </script>
+    
+    <script>
+        function navBurger(x) {
+            x.classList.toggle("change");
+        }
+    </script>
+    
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-fade"></div>
+            <div class="container">
+                <img src="img/me.png" alt="Sigurd Espersen" class="logo">
+                <h1 class="intro">Sigurd Eugen Espersen
+                     <span>Software Engineer</span>
+                </h1>
+            </div>
+        </div>
+    </section>
+     
+    <section class="about" id="about">
+        <div class="container">
+        <div class="about-text">
+         <h1>About me</h1>
+        <div class="about-bullets">
+            <ul>
+                <li class="about-item">22 år</li>
+                <li class="about-item">5. Semester på Software ingeniør</li>
+                <li class="about-item">Bosat i Odense</li>
+                <li class="about-item">Født og opvokset i Esbjerg</li>
+                <li class="about-item">Glad, ihærdig, nysgerrig</li>
+                <li class="about-item">Ordens sans</li>
+                <li class="about-item">Kan arbejde selvstændigt, og sætter mig selv i gang</li>
+            </ul>
+        </div>
+        <div class="about-status">
+            <h2>Nuværende status</h2>
+            <p><strong>Jobsøgende</strong>
+            Hvad søger jeg? &rarr; Udfordring, erfaring, oplevelser!
+            </p>
+            <p>Jeg søger et studierelevant job, som kan udfordre mig, således jeg kan opnå ny erfaring, der i sammenspil med studiet, kan forbedre mine programmeringskundskaber.<br>
+            Ydermere er jeg et meget socialt menneske, så at møde nogle nye kollegaer er et kæmpe plus!<br>
+            Jobbet skal selvfølgelig være fleksibel med mit studie, men også gerne kunne tilbyde mere end et par timer om ugen.
+            </p>
+        </div>
+        </div>
+        </div>
+        <div class="about-fade-left"></div>
+        <div class="about-fade-right"></div>
+    </section>
+    
+    <section class="cv" id="cv">
+        <div class="cv-bg">  
+            <div class="cv-fade-in"></div>
+            <div class="cv-fade-out"></div>
+            <div class="container">
+                <div class="cv-text">
+                    <div class="cv-about">
+                        <h1>CV</h1>
+                        <p>Jeg er en 22 årig glad, ihærdig og særdeles teknologi interesseret ung mand. Jeg er i gang med mit 5. semester af min software ingeniør uddannelse på SDU, og mener derfor selv jeg er parat til at varetage et job ved siden af studiet, baseret på mine kompetencer og erfaring som studiet har givet mig.<br><br>
+                            Personligt er jeg et meget struktureret menneske, hvilket gør mig i stand til, at håndtere flere opgaver ad gangen, uden at miste overblikket. Derudover investerer jeg mig meget i de projekter jeg er involveret i, og lægger derfor mange tanker og tid bag mine beslutninger. Desuden ser jeg helst arbejdet bliver ført til døren, så ingen opgaver bliver glemt.<br><br>
+                            Jeg arbejder altid for at opnå det bedst mulige resultat, derfor bruger jeg ofte også min fritid på at sætte mig ind i tingene, således jeg kan bringe ny viden til jobbet, dette resulterer i en selvstændig og ansvarsbevidst medarbejder.<br><br></p>
+                    </div>
+                    <div class="cv-experience">
+                        <ul>
+                            <li>SDU – Civil ingeniør i software, Det Tekniske Fakultet, SDU Odense. 2017 – 2022
+                                <span>Erfaringer: Java, C#, SQL, HTML, CSS, UML, Scrum</span>
+                                <span>Kendskab: Python, Linux, MVC</span>
+                            </li>
+                            <li>Sabbatår – DaniboSommerhusudlejning, Fanø. 2016 – 2017
+                                <span>Her arbejdede jeg som poolmand (rensning af pools og vedligehold af teknik) og fotograf (samt redigering i photoshop). Desuden har jeg arbejdet ved Danibo siden juli 2015 som poolmand, og jeg startede i 2018 som planarkitekt (plantegninger til sommerhuse), hvilket jeg stadig hjælper personalet med når der er spørgsmål til softwaren. Min LinkedIn profil indeholder en anbefaling herfra.</span>
+                            </li>   
+                            <li>HTX–Rybners Tekniske Gymnasium, Esbjerg. 2013 – 2016
+                                <span>Programmeringslinjen, hvori følgende fag indgår: Kommunikation/IT – Informationsteknologi – Programmering</span>
+                            </li>
+                            <li>Yderlige bemærkninger
+                                <span>Jeg har arbejdet som både opvasker (2012 – 2014) og tjener (2014 – 2015) ved Næsbjerghus.</span>
+                                <span>Jeg har været i praktik i 2 uger og 1 uge henholdsvis ved Thorsen IT (2012) &amp; Electronics Center Esbjerg (2013).</span>
+                                <span>Jeg har lavet fritidsprojekter i Notepad++, Unity, Microsoft Visual Studio og NetBeans.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="git" id="git">
+        <div class="container">
+            <div class="git-bg">
+                <h1>Github projects
+                    <span>Semester projects</span></h1>
+
+                <div class="git-items">
+                    <!-- project item 1 -->
+                    <figure class="project-item">
+                        <img src="img/gallery/git/project1.jpg" alt="project item">
+                        <figcaption class="project-desc">
+                            <p>First semester</p>
+                            <a href="https://github.com/Fraektsvin/Guldgruppen_02" target="_blank" class="button">Project code</a>
+                            <a href="docs/1sem.pdf" target="_blank" class="button">Project rapport</a>
+                        </figcaption>
+                    </figure>
+
+                    <!-- project item 2 -->
+                    <figure class="project-item">
+                        <img src="img/gallery/git/project2.jpg" alt="project item">
+                        <figcaption class="project-desc">
+                            <p>Second semester</p>
+                            <a href="https://github.com/AndersBensen/2-semesterprojekt-sensum-udred" target="_blank" class="button">Project code</a>
+                            <a href="docs/2sem.pdf" target="_blank" class="button">Project rapport</a>
+                        </figcaption>
+                    </figure>
+
+                    <!-- project item 3 -->
+                    <figure class="project-item">
+                        <img src="img/gallery/git/project3.jpg" alt="project item">
+                        <figcaption class="project-desc">
+                            <p>Third semester</p>
+                            <a href="https://github.com/Staerdahl/SYNchatClient" target="_blank" class="button">Project code (Client)</a>
+                            <a href="https://github.com/Staerdahl/SYNchatServer" target="_blank" class="button">Project code (Server)</a>
+                            <a href="docs/3sem.pdf" target="_blank" class="button">Project rapport</a>
+                        </figcaption>
+                    </figure>
+
+                    <!-- project item 4 -->
+                    <figure class="project-item">
+                        <img src="img/gallery/git/project4.jpg" alt="project item">
+                        <figcaption class="project-desc">
+                            <p>Fourth semester</p>
+                            <a href="https://github.com/SigurdEEspersen/Sem4_CBSE" target="_blank" class="button">Project code</a>
+                            <a href="docs/4sem.pdf" target="_blank" class="button">Project rapport</a>
+                        </figcaption>
+                    </figure>
+
+                    <!-- project item 5 -->
+                    <figure class="project-item">
+                        <img src="img/gallery/git/project-NaN.jpg" alt="project item">
+                        <figcaption class="project-desc">
+                            <p>Fifth semester</p>
+                            <a href="#" class="button">Project code</a>
+                            <a href="#" class="button">Project rapport</a>
+                        </figcaption>
+                    </figure>
+
+                    <!-- project item 6 -->
+                    <figure class="project-item">
+                        <img src="img/gallery/git/project-NaN.jpg" alt="project item">
+                        <figcaption class="project-desc">
+                            <p>Sixth semester</p>
+                            <a href="#" class="button">Project code</a>
+                            <a href="#" class="button">Project rapport</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="gallery" id="gallery">
+        <div class="gallery-border">
+            <h1>Gallery</h1>
+        </div>
+        <div class="gallery-bg">
+            <div class="container">
+                <div class="gallery-item">
+                    <div class="gallery-text">
+                        <h2>Havedams project</h2>
+                        <p>Det er ikke kun computere og software jeg interesserer mig for, jeg nyder særligt at være aktiv, få frisk luft, arbejde med hænderne og få sved på panden.<br><br>
+                        Derfor har jeg de seneste 2 somre, arbejdet hos min bror, hvor vi har arbejdet på hans havedams projekt. 
+                        Her har vi udgravet en 35 kubik liter havedam, ved hjælp af håndkraft og en minigraver. Derudover er der blevet lagt FiberTex og FiberDug i søen, samt faskiner, rør og pumper.<br><br>
+                        Pt. mangler der blot at blive lagt sten til bunden og væggene, og herefter påfyldning af vand.
+                        Derefter skal vi til at være kreative med vandfald, omkring liggende sten, lys, tilbehør og selvfølgelig en bestand af fisk som indtil videre skal bestå af bl.a. japanske Koi.</p>
+                        </div>
+                        <div class="gallery-slide">
+                        <figure>
+                            <img src="img/gallery/havedam/1.jpg" alt="">
+                            <img src="img/gallery/havedam/2.jpg" alt="">
+                            <img src="img/gallery/havedam/3.jpg" alt="">
+                            <img src="img/gallery/havedam/4.jpg" alt="">
+                            <img src="img/gallery/havedam/5.jpg" alt="">
+                            <img src="img/gallery/havedam/6.jpg" alt="">
+                            <img src="img/gallery/havedam/7.jpg" alt="" style="transform: rotate(90deg)">
+                            <img src="img/gallery/havedam/8.jpg" alt="">
+                            <img src="img/gallery/havedam/9.jpg" alt="" style="transform: rotate(180deg)">
+                            <img src="img/gallery/havedam/10.jpg" alt="" style="transform: rotate(90deg)">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <footer id="contact">
+                <div class="container">
+                    <div class="contact-bg">
+                        <h1>Contact</h1>
+                        <ul>
+                            <li class="contact-1">
+                                <strong>Phone: </strong>
+                                <p>29 90 01 42</p>
+                            </li>
+                            <li class="contact-2">
+                                <strong>E-mail: </strong>
+                                <p>sigurdespersen@hotmail.com</p>
+                            </li>
+                            <li class="contact-3">
+                                <strong>LinkedIn: </strong>
+                                <p><a href="https://www.linkedin.com/in/sigurd-espersen-a24849191/" target="_blank">linkedin.com/in/sigurd-espersen</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
