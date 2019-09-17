@@ -217,7 +217,7 @@ header .line1, .line2, .line3 {
 
 #main {
     position: absolute;
-    top: 25%;
+    top: 30em;
     transform: translateY(10%);
     opacity: 0;
     transition: 0.5s ease-in;
