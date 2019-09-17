@@ -215,16 +215,25 @@ header .line1, .line2, .line3 {
     top: -10em;
 }
 
-.logo {
+#main {
     position: absolute;
+    top: 25%;
+    transform: translateY(10%);
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+
+.loadMain {
+    opacity: 1 !important;
+    transform: translateY(0%) !important;
+}
+
+.logo {
     width: 22em;
-    top: 25em;
 }
 
 .intro {
-    position: absolute;
     font-size: 5rem;
-    top: 9.5em;
     font-weight: 600;
 }
 
@@ -245,12 +254,10 @@ header .line1, .line2, .line3 {
 @media (max-width: 80rem) {
     .logo {
         width: 18em;
-        top: 30em;
     }
     
     .intro {
         font-size: 4rem;
-        top: 12em;
     }
 }
 
@@ -263,12 +270,10 @@ header .line1, .line2, .line3 {
 @media (max-width: 50rem) {
     .logo {
         width: 15em;
-        top: 33em;
     }
     
     .intro {
         font-size: 3rem;
-        top: 16em;
     }
 }
 

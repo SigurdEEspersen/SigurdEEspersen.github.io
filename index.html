@@ -59,10 +59,12 @@
         <div class="hero-bg">
             <div class="hero-fade"></div>
             <div class="container">
-                <img src="img/me.png" alt="Sigurd Espersen" class="logo">
-                <h1 class="intro">Sigurd Eugen Espersen
-                     <span>Software Ingeniør</span>
-                </h1>
+                <div id="main">
+                    <img src="img/me.png" alt="Sigurd Espersen" class="logo">
+                    <h1 class="intro">Sigurd Eugen Espersen
+                         <span>Software Ingeniør</span>
+                    </h1>
+                </div>
             </div>
         </div>
     </section>
@@ -261,6 +263,10 @@
         </div>
     </section>
     
-    
+    <script type="text/javascript">
+        $(window).on('load', function() {
+            document.getElementById("main").classList.add("loadMain");
+        })
+    </script>
 </body>
 </html>
