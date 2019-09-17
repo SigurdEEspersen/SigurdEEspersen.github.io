@@ -388,7 +388,7 @@ header .line1, .line2, .line3 {
 
 @media (max-width: 30rem) {
     .about-text {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
     
     .about p {
