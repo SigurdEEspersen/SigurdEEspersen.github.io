@@ -561,6 +561,11 @@ header .line1, .line2, .line3 {
 
 .project-item img {
     display: block;
+    transition: .5s;
+}
+
+.project-item img:hover {
+    transform: scale(1.2);
 }
 
 .project-desc {
