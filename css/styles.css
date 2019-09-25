@@ -565,7 +565,7 @@ header .line1, .line2, .line3 {
 }
 
 .project-item img:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .project-desc {
